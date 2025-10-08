@@ -24,14 +24,9 @@ A clean, parameter-driven Power BI report for electric reliability KPIs: **SAIDI
 ├─ assets/
 │ └─ overview.png # README screenshot
 └─ README.md
-
-yaml
-Copy code
-
 ---
 
 ## 📐 Measures (DAX examples)
-> Adjust names to match your model.
 
 ```DAX
 Total Customer Minutes Interrupted = SUM( Outages[CustomerMinutes] )
